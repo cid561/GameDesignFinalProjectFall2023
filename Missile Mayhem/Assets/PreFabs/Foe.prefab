@@ -146,4 +146,6 @@ MonoBehaviour:
   Player: {fileID: 0}
   missile: {fileID: 2164221252297218406, guid: 265827402e4a5f04f8ec2b7e99b57db8, type: 3}
   gold: {fileID: 1886316242115299524, guid: b01878735619b63429461738f93f0ea8, type: 3}
+  heal: {fileID: 5331987736998495848, guid: 9bba3b7dc7d2d7f489fb839184aa980c, type: 3}
   cam: {fileID: 0}
+  poolManager: {fileID: 2164221252297218406, guid: 265827402e4a5f04f8ec2b7e99b57db8, type: 3}

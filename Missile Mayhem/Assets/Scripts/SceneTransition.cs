@@ -59,11 +59,24 @@ public class SceneTransition : MonoBehaviour
             }
             yield return null;
             string temp = SceneManager.GetActiveScene().name;//get name of current scene
+            Debug.Log(temp);
             if(temp == "MainMenue")//if we are at the main menue
             {
-                SceneManager.LoadScene("BattleRoom");//go to battle
+                SceneManager.LoadScene("tutorial");//go to tutorial
             }
-            else
+            else if(temp == "tutorial")
+            {
+                SceneManager.LoadScene("BattleRoom");//got to level 1
+            }
+            else if(temp == "BattleRoom")
+            {
+                SceneManager.LoadScene("BattleRoom2");//got to level 2
+            }
+            else if(temp == "BattleRoom2")
+            {
+                SceneManager.LoadScene("BattleRoom3");//got to level 2
+            }
+            else 
             {
                 SceneManager.LoadScene("MainMenue");//go to main
             }

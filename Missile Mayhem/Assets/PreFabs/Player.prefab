@@ -177,6 +177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerSpeed: 10
   TurnSpeed: 360
+  pause: {fileID: 0}
 --- !u!114 &-2662793817166604019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,6 +191,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  MaxHealth: 10
   gold: 0
-  goldCounter: {fileID: 0}
+  textBox: {fileID: 0}
+  sce: {fileID: 0}
+  collectSound: {fileID: 4044770543894144241, guid: bd7b5779db092d84d814b9d6201f0721, type: 3}
+  damageSound: {fileID: 4326567801071891119, guid: 06d68da30875b8f41bea7dc35a5f179e, type: 3}

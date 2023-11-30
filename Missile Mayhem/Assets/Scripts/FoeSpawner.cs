@@ -25,7 +25,7 @@ public class FoeSpawner : MonoBehaviour
         float timer = 0f;
         while(timer < 30)
         {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(waitTime);
         Vector3 loc = new Vector3(0,0,0);
         float PickSpawnSide = Random.Range(0f,1f);
         //if the value is between 0-0.25 spawn on left side
